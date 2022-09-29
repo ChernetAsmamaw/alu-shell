@@ -1,5 +1,5 @@
 #!/bin/bash
 for file in /home/alu-shell/permission/*
-do 
-	echo "#!/bin/bash" > ${file}
+do
+       	echo "#!bin/bash" < ${file}
 done
