@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #A Bash script that loops from 1 to 10
-C=1
+c=1
 while [ "$c" -le 10 ]
 do
        if [ $c == 4 ]
