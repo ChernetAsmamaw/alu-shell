@@ -4,5 +4,5 @@ COUNTER=10
 until [ $COUNTER -gt 9 ];
 do
        echo "Best School";
-       COUNTER=$((COUNTER++))
+       ((COUNTER++))
 done      
