@@ -8,5 +8,5 @@ do
 	then
 		echo "Hi"
 	fi
-	((COUNTER))
+	((COUNTER++))
 done
