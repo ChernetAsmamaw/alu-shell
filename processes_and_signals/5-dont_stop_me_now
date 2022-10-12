@@ -4,7 +4,7 @@ while :
 do 
 	echo "To infinity and beyond"
 	sleep 2
-	if (7th line)
+	if (disaster-condition)
 	then
 		break
 	fi
