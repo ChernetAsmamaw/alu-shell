@@ -2,6 +2,6 @@
 #A Bash script that displays To infinity and beyond indefinitely
 while :
 do 
-	echo "Press [CTRL+C] to stop.."
+	echo "To infinity and beyond"
 	sleep 2
 done 
