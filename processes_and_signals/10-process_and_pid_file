@@ -21,5 +21,5 @@ do
 
 #Deletes the file /var/run/myscript.pid and terminates itself when receiving a SIGQUIT or SIGTERM signal                                                 
 
-	trap 'rm -r /var/run/myscript.pid; exit' SIGINT SIGQUIT
+	trap 'rm -rf /var/run/myscrip.pid' 3
 done 
