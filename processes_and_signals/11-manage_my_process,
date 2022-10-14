@@ -14,7 +14,7 @@ declare -A MESSAGES=(
 start() {
 	  exec -- "${RELPATH}" &
 	  echo "$!" >| "${PIDFILE}"
-  }
+        }
 
 stop() {
 	trap '
